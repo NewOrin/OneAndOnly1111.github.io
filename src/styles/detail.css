@@ -1,0 +1,67 @@
+.article-container {
+  padding: 20px 16px;
+  font-size: 17px;
+}
+
+.article-container > .title {
+  font-size: 30px;
+  color: #323434;
+  margin-left: -10px;
+}
+
+.article-container > .college {
+  font-size: 15px;
+  color: #858789;
+  margin-top: 10px;
+}
+
+.article-container > .college::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #000;
+  margin: 10px 0px;
+}
+
+.article-container > .desc {
+  color: #090909;
+  line-height: 27px;
+}
+
+.article-container > .content {
+  color: #000000;
+  line-height: 27px;
+}
+
+.article-container > .content > img {
+ display: block; 
+ margin: 18px 0px;
+}
+
+.article-container > .content > p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.article-container > .end {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 38px 0px;
+}
+.article-container > .end::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  border: 1px dashed #979797;
+}
+.article-container > .end::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  border: 1px dashed #979797;
+}
+.article-container > .end > .text {
+  color: #979797;
+  margin: 0px 5px;
+}

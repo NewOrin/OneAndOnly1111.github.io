@@ -1,0 +1,28 @@
+.works-content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.works-content > .item {
+  width: 100%;
+  background:#fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.1);
+  padding: 12px;
+  cursor: pointer;
+}
+.works-content > .item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.works-content > .item > .title {
+  font-size: 18px;
+  color: #323434;
+}
+.works-content > .item > .college {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #858789;
+}
