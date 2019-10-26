@@ -43,6 +43,11 @@
   margin-bottom: 20px;
 }
 
+.article-container > .content > p {
+  word-wrap: break-word;
+  word-break:break-all;
+}
+
 .article-container > .end {
   display: flex;
   align-items: center;
